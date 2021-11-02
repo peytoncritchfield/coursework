@@ -1,4 +1,6 @@
-
+* {
+    margin: 0;
+}
 
 
 body {
@@ -13,7 +15,26 @@ body {
     position: absolute;
     bottom: 100px;
     left: 200px;
+    margin: auto;
     width: 50px;
     height: 100px;
     background-color: rgb(132, 216, 219);
+}
+
+.gameArea {
+    background-color: black;
+    width: 400px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin: auto;
+    background-color: white;
+    margin-left: 195px;
 }
